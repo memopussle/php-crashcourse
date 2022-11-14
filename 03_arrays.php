@@ -56,5 +56,4 @@ $people = [
    ];
 
 // echo $people[1]['email']; // john@someemail.com
-
-var_dump(json_encode);
+// var_dump($people); // telling type of variable
