@@ -16,7 +16,7 @@ $password = $_POST['password'];
 
 if($username == 'john' && $password == 'password') {
     $_SESSION['username'] = $username;
-    header('Location: /php-crash/extras/dashboard.php');
+    header('Location: /php-crash/extras/dashboard.php'); // store the user information
 } else {
     echo 'Incorrect login';
 }
